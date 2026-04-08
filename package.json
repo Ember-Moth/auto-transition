@@ -1,6 +1,6 @@
 {
   "name": "auto-transition",
-  "version": "0.0.7-4",
+  "version": "0.0.7-5",
   "description": "A lightweight React component for automatic enter/exit/move transitions using Web Animations API",
   "license": "MIT",
   "module": "dist/index.mjs",
