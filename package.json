@@ -35,6 +35,10 @@
     ".": {
       "types": "./dist/index.d.mts",
       "import": "./dist/index.mjs"
+    },
+    "./effects": {
+      "types": "./dist/effects.d.mts",
+      "import": "./dist/effects.mjs"
     }
   },
   "lint-staged": {
@@ -53,6 +57,10 @@
     "build": "bunx tsdown --sourcemap --publint"
   },
   "tsdown": {
+    "entry": {
+      "index": "src/index.ts",
+      "effects": "src/effects.ts"
+    },
     "outputOptions": {
       "banner": "\"use client\";"
     }
