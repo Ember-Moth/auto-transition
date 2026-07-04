@@ -51,7 +51,7 @@
     ]
   },
   "scripts": {
-    "prepare": "bunx husky",
+    "prepare": "node -e 0",
     "lint": "eslint .",
     "format": "prettier --write .",
     "build": "bunx tsdown --sourcemap --publint"
